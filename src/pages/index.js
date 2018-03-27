@@ -45,9 +45,9 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>We do websites</h2>
+                  <h2>Everything digital</h2>
                 </header>
-                <p>We’re passionate about technology and are driven by client success.</p>
+                <p>We’re passionate about technology and are driven by client success. At the heart of excellent design is excellent collaboration. We believe in working with you all the way to realise your wildest imaginations. </p>
                 <ul className="actions">
                   <li><Link to="/generic" className="button">Learn More</Link></li>
                 </ul>
