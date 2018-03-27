@@ -5,14 +5,16 @@
 ///
 
 /* Nav */
-
+	
 	#nav {
 		@include vendor('transition', (
+			'opacity 3s ease',
 			'background-color #{_duration(transition)} ease',
 			'border-top-left-radius #{_duration(transition)} ease',
 			'border-top-right-radius #{_duration(transition)} ease',
 			'padding #{_duration(transition)} ease',
 		));
+		@include vendor('transition-delay', '3s');
 		@include color-typography(invert);
 		position: absolute;
 		width: _size(inner);
@@ -23,6 +25,8 @@
 		border-top-right-radius: _size(border-radius-main);
 		cursor: default;
 		text-align: center;
+		opacity: 1;
+		z-index: 1;
 
 		& + #main {
 			padding-top: 4.25em;
@@ -98,5 +102,12 @@
 			& + #main {
 				padding-top: 0;
 			}
+		}
+		
+		
+	}
+	.body.is-loading {
+		nav#nav {
+			opacity: 0;
 		}
 	}

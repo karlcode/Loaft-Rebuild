@@ -9,7 +9,9 @@
 	#main {
 		@include color(invert);
 		border-radius: _size(border-radius-main);
-
+		@include vendor('transition', 'opacity 3s ease');
+		@include vendor('transition-delay', '2s');
+		opacity: 1;
 		> .main {
 			@include padding(5em, 5em);
 			border-top: solid 1px _palette(invert, border);
@@ -95,5 +97,10 @@
 					}
 				}
 			}
+		}
+	}
+	.body.is-loading {
+		#main {
+			opacity: 0;
 		}
 	}
