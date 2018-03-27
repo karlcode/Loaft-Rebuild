@@ -1,13 +1,7 @@
-# gatsby-starter-stellar
-Gatsby starter based on the Stellar site template, designed by [HTML5 UP](https://html5up.net/stellar). Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
+# Rebuild of Loaft Portfolio Site
+Developed over Gatsby Stellar starter template
 
 ## Preview
 
-http://gatsby-stellar.surge.sh/
+https://sad-mayer-611866.netlify.com/
 
-## Installation
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-starter-stellar https://github.com/codebushi/gatsby-starter-stellar`
-
-Run `gatsby develop` in the terminal to start.
